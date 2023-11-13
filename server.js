@@ -6,4 +6,4 @@ let app = express();
 
 app.use(express.static("static"))
 
-app.listen(PORT, () => `server listening on http://localhost:${PORT}`)
+app.listen(PORT, () => console.log(`server listening on http://localhost:${PORT}`))
